@@ -12,8 +12,9 @@ def perform_operation(num1,num2,operation):
         case "divide":
             if num2 !=0:
                division = num1 / num2
+               return division
             else:
                 return "zero division error"
         case _:
-            return "invalid"
+            return "invalid
                 
