@@ -1,19 +1,19 @@
 def perform_operation(num1,num2,operation):
     match operation:
-        case "+":
+        case "add":
             sum = num1 + num2
             return sum
-        case "-":
+        case "subtract":
             difference = num1 - num2
             return difference
-        case "*":
+        case "multiply":
             product = num1 * num2
             return product
-        case "/":
+        case "divide":
             if num2 !=0:
                division = num1 / num2
             else:
-                return "error"
+                return "zero division error"
         case _:
             return "invalid"
                 
