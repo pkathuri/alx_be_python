@@ -11,4 +11,7 @@ def perform_operation(num1:float,num2:float,operation:str):
         else:
            return "Zero division error"
     else:
-        return "invalid operation"   
+        return "invalid operation"  
+result = perform_operation(10.5,5.5,"divide")
+print(result)
+    
