@@ -12,5 +12,6 @@ def perform_operation(num1:float,num2:float,operation:str):
             else:
                 return "zero division error"
 
-
+result = perform_operation(10.2,5.1,"divide")
+print(result)
 
