@@ -22,7 +22,7 @@ def main():
         elif choice == "3":
             if shopping_list:
                 print("The following items are have beei added to your cart: ")
-                for item in shopping_list:
+                for item in enumerate(shopping_list,1):
                     print(item)
         elif choice == "4":
             print("Goodbye")
