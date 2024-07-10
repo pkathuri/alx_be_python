@@ -22,8 +22,10 @@ def main():
         elif choice == "3":
             if shopping_list:
                 print("The following items are have beei added to your cart: ")
-                for item in enumerate(shopping_list,1):
-                    print(item)
+                for i, item in enumerate(shopping_list,1):
+                    print(f"{i}. {item}")
+            else:
+                print("cart is empty")
         elif choice == "4":
             print("Goodbye")
             break
