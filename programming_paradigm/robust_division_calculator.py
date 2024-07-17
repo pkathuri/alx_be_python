@@ -3,13 +3,10 @@ def safe_divide(numerator,denominator):
         numerator = float(numerator)
         denominator = float(denominator)
         result = numerator / denominator
-        if numerator == 0:
+        if denominator == 0:
             return "Error: Cannot divide by zero."
         else:
             return result
     except ValueError:
         return "Enter numeric values only"
-
-result = safe_divide(1,2)
-print(result)
         
