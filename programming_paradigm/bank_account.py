@@ -1,4 +1,4 @@
-class BankAccount:
+class BankAccout:
     def __init__(self, account_balance = 0):
         self.account_balance = account_balance
 
@@ -16,7 +16,3 @@ class BankAccount:
 
     def display_balance(self):
         print(f'The current account balance is {self.account_balance}')
-
-account = BankAccount(100)
-account.deposit(50)
-account.display()
