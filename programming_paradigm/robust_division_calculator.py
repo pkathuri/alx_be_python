@@ -8,7 +8,7 @@ def safe_divide(numerator,denominator):
         else:
             return result
     except ValueError:
-        print("Enter numeric values only")
+        return "Enter numeric values only"
 
 result = safe_divide(1,2)
 print(result)
