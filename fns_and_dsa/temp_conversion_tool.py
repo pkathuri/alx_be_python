@@ -24,6 +24,7 @@ def main():
             else:
                 raise ValueError("Invalid input of temperature units, insert C/F")
             print(f'{temperature} {units} is {results} {units_of_conversion}.')
-       except:
-        #    print(e)
-           raise ValueError("Invalid temperature, insert a numeric value.")
+      except ValueError as e:
+      print(e)
+      print("Invalid temperature. Please enter a numeric value.")
+
