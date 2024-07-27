@@ -1,7 +1,7 @@
 import math
 class Shape:
     def area(self):
-        raise NotImplementedError("Suubclasses can only impement area method.")
+        raise NotImplementedError("Subclasses must  impement area method")
 
 class Rectangle(Shape):
     def __init__(self,length,width):
